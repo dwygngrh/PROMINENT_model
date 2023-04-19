@@ -23,7 +23,7 @@ chmod +x install_coawst.sh
 
 ./install_openmpi.sh
 
-## agar di logout trus logion lagi
+## agar di logout trus login lagi
 
 ./install_roms_parallel.sh
 
