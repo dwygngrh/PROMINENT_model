@@ -2,6 +2,11 @@
 
 Install library yang di butuhkan untuk model ROMS
 
-Pastikan sudah menginstall intel oneAPI toolkits
+1. install one api toolkits
+
+2. install library
+
+3. install roms coawst
+
 
 
