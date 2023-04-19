@@ -2,9 +2,9 @@
 
 Install library yang di butuhkan untuk model ROMS
 
-1. install one api toolkits
+1. install_oneapi.sh
 
-2. install library
+2. install_roms
 
 3. install roms coawst
 
