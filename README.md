@@ -2,6 +2,8 @@
 
 Install library yang di butuhkan untuk model ROMS
 
+OS =  Windows Subsystem Linux - UBUNTU 20
+
 Pastikan berada di direktori HOME
 
 1. install_oneapi.sh
