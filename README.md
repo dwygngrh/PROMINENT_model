@@ -13,11 +13,17 @@ Ikuti step berikut :
 
 chmod +x install_essentials.sh
 
+chmod +x install_openmpi.sh
+
 chmod +x install_roms_parallel.sh
 
 chmod +x install_coawst.sh
 
 ./install_essentials.sh
+
+./install_openmpi.sh
+
+## agar di logout trus logion lagi
 
 ./install_roms_parallel.sh
 
