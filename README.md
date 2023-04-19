@@ -9,6 +9,8 @@ Pastikan berada di direktori HOME
 
 Download seluruh source command ke /home
 
+git clone https://github.com/dwygngrh/PROMINENT_model.git
+
 Ikuti step berikut : 
 
 chmod +x install_essentials.sh
