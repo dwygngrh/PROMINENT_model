@@ -35,6 +35,21 @@ conda activate model2roms
 
 conda install esmf xarray netcdf4 progressbar2 
 
+### Install anaconda
+
+cd 
+
+wget https://repo.anaconda.com/archive/Anaconda3-2023.03-Linux-x86_64.sh
+
+chmod +x Anaconda3-2023.03-Linux-x86_64.sh
+
+./Anaconda3-2023.03-Linux-x86_64.sh
+
+
+##install ferret
+
+conda create -n ferret-py39 pyferret python=3.9
+
 
 
 
