@@ -13,9 +13,15 @@ git clone https://github.com/dwygngrh/PROMINENT_model.git
 
 Ikuti step berikut : 
 
-cd PROMINENT_model
+mv PROMINENT_model/* .
 
-chmod +x *.sh
+chmod +x install_essentials.sh
+
+chmod +x install_openmpi.sh
+
+chmod +x install_roms_parallel.sh
+
+chmod +x install_coawst.sh
 
 ./install_essentials.sh
 

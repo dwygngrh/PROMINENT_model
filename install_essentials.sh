@@ -11,3 +11,5 @@ sudo apt-get install ncview
 sudo apt-get install -y php-posix
 sudo apt-get -y install nco
 sudo apt install git
+sudo apt install x11-apps
+sudo apt-get install m4
