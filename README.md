@@ -39,7 +39,21 @@ cd PROMINENT_model
 
 ## agar di logout trus login lagi
 
-# Install anaconda
+# Install ROMS_CROCO
+
+mkdir CROCO
+
+cd CROCO
+
+wget https://data-croco.ifremer.fr/CODE_ARCHIVE/croco-v1.3.tar.gz
+
+tar -xzf croco-v1.3.tar.gz
+
+wget https://data-croco.ifremer.fr/CODE_ARCHIVE/croco_tools-v1.3.tar.gz
+
+tar -xzf croco_tools-v1.3.tar.gz
+
+# Install anaconda untuk ROMS_COAWST
 
 wget https://repo.anaconda.com/archive/Anaconda3-2023.03-Linux-x86_64.sh
 
@@ -51,9 +65,13 @@ chmod +x Anaconda3-2023.03-Linux-x86_64.sh
 
 conda create -n ferret-py39 pyferret python=3.9
 
-## install COAWST
+## install ROMS_COAWST
+
+git clone https://github.com/jcwarner-usgs/COAWST.git
 
 cd COAWST
+
+mkdir Tools
 
 cd Tools
 
@@ -63,9 +81,13 @@ conda config --add channels conda-forge
 
 conda activate model2roms
 
-conda install esmf xarray netcdf4 progressbar2 
+conda install esmf esmpy xarray netcdf4 progressbar2 
 
 python compile.py
+
+
+
+
 
 
 
