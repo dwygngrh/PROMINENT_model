@@ -9,11 +9,9 @@ COMPILER = Gfortran
 
 Pastikan berada di direktori HOME
 
-Download seluruh source command ke /home
+# Ikuti step berikut : 
 
 git clone https://github.com/dwygngrh/PROMINENT_model.git
-
-# Ikuti step berikut : 
 
 cd PROMINENT_model
 
@@ -23,7 +21,7 @@ chmod +x *.sh
 
 ./install_openmpi.sh
 
-## logout terus login lagi
+## logout UBUNTU terus login lagi
 
 cd PROMINENT_model
 
@@ -31,13 +29,13 @@ cd PROMINENT_model
 
 ./install_m4.sh
 
-## logout terus login lagi
+## logout UBUNTU terus login lagi
 
 cd PROMINENT_model
 
 ./install_octave.sh
 
-## agar di logout trus login lagi
+## logout UBUNTU trus login lagi
 
 # Install ROMS_CROCO
 
