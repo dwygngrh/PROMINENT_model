@@ -15,6 +15,8 @@ git clone https://github.com/dwygngrh/PROMINENT_model.git
 
 # Ikuti step berikut : 
 
+cd PROMINENT_model
+
 chmod +x *.sh
 
 ./install_essentials.sh
