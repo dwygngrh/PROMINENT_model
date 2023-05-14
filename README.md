@@ -1,5 +1,7 @@
 # PROMINENT_model
 
+# Pusat Riset Oseanografi - BRIN
+
 Install library yang di butuhkan untuk model ROMS
 
 OS =  Windows Subsystem Linux - UBUNTU 20
@@ -13,23 +15,19 @@ git clone https://github.com/dwygngrh/PROMINENT_model.git
 
 Ikuti step berikut : 
 
-mv PROMINENT_model/* .
-
-chmod +x install_essentials.sh
-
-chmod +x install_openmpi.sh
-
-chmod +x install_roms_parallel.sh
-
-chmod +x install_coawst.sh
+chmod +x *.sh
 
 ./install_essentials.sh
+
+## agar di logout trus login lagi
 
 ./install_openmpi.sh
 
 ## agar di logout trus login lagi
 
 ./install_roms_parallel.sh
+
+## agar di logout trus login lagi
 
 ./install_coawst.sh
 
