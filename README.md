@@ -25,11 +25,15 @@ chmod +x *.sh
 
 ## logout terus login lagi
 
+cd PROMINENT_model
+
 ./install_roms_parallel.sh
 
 ./install_m4.sh
 
 ## logout terus login lagi
+
+cd PROMINENT_model
 
 ./install_octave.sh
 
