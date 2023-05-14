@@ -65,6 +65,8 @@ conda create -n ferret-py39 pyferret python=3.9
 
 # install ROMS_COAWST
 
+cd
+
 git clone https://github.com/jcwarner-usgs/COAWST.git
 
 cd COAWST
@@ -82,6 +84,18 @@ conda activate model2roms
 conda install esmf esmpy xarray netcdf4 progressbar2 
 
 python compile.py
+
+#  INSTALL OCTCDF
+
+cd ../PROMINEN_model
+
+octave
+
+####Ketik didalam octave :
+
+pkg install octcdf.tar.gz
+
+
 
 
 
