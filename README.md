@@ -21,7 +21,7 @@ chmod +x *.sh
 
 ./install_openmpi.sh
 
-## logout UBUNTU terus login lagi
+### logout UBUNTU terus login lagi
 
 cd PROMINENT_model
 
@@ -29,13 +29,13 @@ cd PROMINENT_model
 
 ./install_m4.sh
 
-## logout UBUNTU terus login lagi
+### logout UBUNTU terus login lagi
 
 cd PROMINENT_model
 
 ./install_octave.sh
 
-## logout UBUNTU trus login lagi
+### logout UBUNTU trus login lagi
 
 # Install ROMS_CROCO
 
@@ -59,11 +59,11 @@ chmod +x Anaconda3-2023.03-Linux-x86_64.sh
 
 ./Anaconda3-2023.03-Linux-x86_64.sh
 
-## install ferret
+# install ferret
 
 conda create -n ferret-py39 pyferret python=3.9
 
-## install ROMS_COAWST
+# install ROMS_COAWST
 
 git clone https://github.com/jcwarner-usgs/COAWST.git
 
