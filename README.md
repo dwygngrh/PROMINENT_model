@@ -13,7 +13,7 @@ Download seluruh source command ke /home
 
 git clone https://github.com/dwygngrh/PROMINENT_model.git
 
-## Ikuti step berikut : 
+# Ikuti step berikut : 
 
 chmod +x *.sh
 
@@ -21,19 +21,19 @@ chmod +x *.sh
 
 ./install_openmpi.sh
 
-# logout terus login lagi
+## logout terus login lagi
 
 ./install_roms_parallel.sh
 
 ./install_m4.sh
 
-# logout terus login lagi
+## logout terus login lagi
 
 ./install_octave.sh
 
-# agar di logout trus login lagi
+## agar di logout trus login lagi
 
-### Install anaconda
+# Install anaconda
 
 wget https://repo.anaconda.com/archive/Anaconda3-2023.03-Linux-x86_64.sh
 
