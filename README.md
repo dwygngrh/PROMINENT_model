@@ -13,34 +13,33 @@ Download seluruh source command ke /home
 
 git clone https://github.com/dwygngrh/PROMINENT_model.git
 
-Ikuti step berikut : 
+## Ikuti step berikut : 
 
 chmod +x *.sh
 
 ./install_essentials.sh
 
-## agar di logout trus login lagi
-
 ./install_openmpi.sh
 
-## agar di logout trus login lagi
+# logout terus login lagi
 
 ./install_roms_parallel.sh
 
-## agar di logout trus login lagi
+./install_m4.sh
 
-./install_coawst.sh
+# logout terus login lagi
+
+./install_octave.sh
+
+# agar di logout trus login lagi
 
 ### Install anaconda
-
-cd 
 
 wget https://repo.anaconda.com/archive/Anaconda3-2023.03-Linux-x86_64.sh
 
 chmod +x Anaconda3-2023.03-Linux-x86_64.sh
 
 ./Anaconda3-2023.03-Linux-x86_64.sh
-
 
 ## install ferret
 
