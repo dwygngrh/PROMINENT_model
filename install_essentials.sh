@@ -13,3 +13,4 @@ sudo apt-get install libqt5gui5
 sudo apt-get install ncview
 sudo apt-get install -y php-posix
 sudo apt-get -y install nco
+sudo apt-get install libatlas-base-dev
