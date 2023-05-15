@@ -7,7 +7,7 @@ sudo strip --remove-section=.note.ABI-tag /usr/lib/x86_64-linux-gnu/libQt5Core.s
 #
 ### install octave
 version=5.2.0
-wget https://ftp.gnu.org/gnu/octave/octave-${version}.tar.gz
+wget--no-check-certificate https://ftp.gnu.org/gnu/octave/octave-${version}.tar.gz
 tar -xzf octave-${version}.tar.gz
 cd octave-${version}
 ./configure --prefix=$INSDIR
