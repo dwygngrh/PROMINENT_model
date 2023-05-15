@@ -43,17 +43,17 @@ mkdir CROCO
 
 cd CROCO
 
-wget https://data-croco.ifremer.fr/CODE_ARCHIVE/croco-v1.3.tar.gz
+wget --no-check-certificate https://data-croco.ifremer.fr/CODE_ARCHIVE/croco-v1.3.tar.gz
 
 tar -xzf croco-v1.3.tar.gz
 
-wget https://data-croco.ifremer.fr/CODE_ARCHIVE/croco_tools-v1.3.tar.gz
+wget --no-check-certificate https://data-croco.ifremer.fr/CODE_ARCHIVE/croco_tools-v1.3.tar.gz
 
 tar -xzf croco_tools-v1.3.tar.gz
 
 # Install anaconda untuk ROMS_COAWST
 
-wget https://repo.anaconda.com/archive/Anaconda3-2023.03-Linux-x86_64.sh
+wget --no-check-certificate https://repo.anaconda.com/archive/Anaconda3-2023.03-Linux-x86_64.sh
 
 chmod +x Anaconda3-2023.03-Linux-x86_64.sh
 
