@@ -22,7 +22,7 @@ INSDIR=${HOME}/library
 ### install openMPI
 cd ${SRCDIR}
 openMPI=openmpi-4.1.4
-wget https://download.open-mpi.org/release/open-mpi/v4.1/${openMPI}.tar.gz
+wget --no-check-certificate https://download.open-mpi.org/release/open-mpi/v4.1/${openMPI}.tar.gz
 tar -xf ${openMPI}.tar.gz 
 cd ${openMPI}
 CC=${CC} CXX=${CXX} FC=${FC} ./configure --prefix=${INSDIR}
