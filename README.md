@@ -61,7 +61,7 @@ chmod +x Anaconda3-2023.03-Linux-x86_64.sh
 
 # install ferret
 
-conda create -n ferret-py39 pyferret python=3.9
+conda create -n ferret -c conda-forge pyferret  python=3.9
 
 # install ROMS_COAWST
 
