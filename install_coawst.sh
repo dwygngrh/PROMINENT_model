@@ -22,5 +22,6 @@ conda config --add channels conda-forge
 conda activate model2roms
 conda install esmf xarray netcdf4 progressbar2
 
+cd model2roms
 python compile.py
 
