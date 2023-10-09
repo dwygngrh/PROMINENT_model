@@ -85,15 +85,7 @@ conda install esmf esmpy xarray netcdf4 progressbar2
 
 python compile.py
 
-#  INSTALL OCTCDF
 
-cd ../PROMINEN_model
-
-octave
-
-#### Ketik didalam octave :
-
-pkg install octcdf.tar.gz
 
 
 
