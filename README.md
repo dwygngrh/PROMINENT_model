@@ -83,7 +83,7 @@ conda activate model2roms
 
 conda install esmf esmpy xarray netcdf4 progressbar2 
 
-python compile.py
+install_coawst.sh
 
 
 
