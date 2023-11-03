@@ -8,7 +8,9 @@ mkdir Tools
 
 cd Tools
 
-git clone https://github.com/trondkr/model2roms
+git clone https://github.com/dwygngrh/PROMINENT_model/blob/main/model2roms.rar
+
+unrar x model2roms
 
 git clone https://github.com/trondkr/ERA5-ROMS
 
