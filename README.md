@@ -47,7 +47,7 @@ conda create -n ferret -c conda-forge pyferret  python=3.9
 
 cd
 
-./install_coawst.sh
+./PROMINENT_model/install_coawst.sh
 
 # Download Ocean forcing dari CMEMS
 
