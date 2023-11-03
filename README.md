@@ -45,25 +45,7 @@ conda create -n ferret -c conda-forge pyferret  python=3.9
 
 # install ROMS_COAWST
 
-cd
-
-git clone https://github.com/jcwarner-usgs/COAWST.git
-
-cd COAWST
-
-mkdir Tools
-
-cd Tools
-
-conda create -n model2roms
-
-conda config --add channels conda-forge
-
-conda activate model2roms
-
-conda install esmf esmpy xarray netcdf4 progressbar2 
-
-install_coawst.sh
+./install_coawst.sh
 
 
 
