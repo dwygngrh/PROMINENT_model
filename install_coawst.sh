@@ -8,7 +8,7 @@ mkdir Tools
 
 cd Tools
 
-git clone https://github.com/dwygngrh/PROMINENT_model/blob/main/model2roms.rar
+mv ../../PROMINENT_model/model2roms.rar .
 
 unrar x model2roms
 
