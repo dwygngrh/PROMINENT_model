@@ -45,6 +45,8 @@ conda create -n ferret -c conda-forge pyferret  python=3.9
 
 # install ROMS_COAWST
 
+cd
+
 ./install_coawst.sh
 
 # Download Ocean forcing dari CMEMS
