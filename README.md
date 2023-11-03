@@ -29,27 +29,7 @@ cd PROMINENT_model
 
 ./install_m4.sh
 
-### logout UBUNTU terus login lagi
-
-cd PROMINENT_model
-
-./install_octave.sh
-
 ### logout UBUNTU trus login lagi
-
-# Install ROMS_CROCO
-
-mkdir CROCO
-
-cd CROCO
-
-wget --no-check-certificate https://data-croco.ifremer.fr/CODE_ARCHIVE/croco-v1.3.tar.gz
-
-tar -xzf croco-v1.3.tar.gz
-
-wget --no-check-certificate https://data-croco.ifremer.fr/CODE_ARCHIVE/croco_tools-v1.3.tar.gz
-
-tar -xzf croco_tools-v1.3.tar.gz
 
 # Install anaconda untuk ROMS_COAWST
 
