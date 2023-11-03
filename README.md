@@ -51,7 +51,11 @@ conda create -n ferret -c conda-forge pyferret  python=3.9
 
 cd COAWST/Tools
 
-mv ../../PROMINENT_model/
+mv ../../PROMINENT_model/*.tar .
+
+tar -xvzf cmems_download_after2019.tar
+
+tar -xvzf cmems_download_before2019.tar
 
 
 
