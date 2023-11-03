@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd 
+
 git clone https://code.usgs.gov/coawstmodel/COAWST.git
 
 cd COAWST
